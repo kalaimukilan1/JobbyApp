@@ -1,0 +1,246 @@
+.jobs-container {
+  background-color: #000000;
+  min-height: 90vh;
+  padding: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 767px) {
+  .jobs-container {
+    flex-direction: column;
+  }
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-style: none;
+  border-radius: 20px;
+  min-height: 220px;
+  width: 100%;
+  padding: 20px;
+}
+
+.profile-and-filter-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-and-filter-container {
+    width: 25%;
+  }
+}
+
+.profile-name {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #6366f1;
+  margin-top: 2px;
+}
+
+.profile-bio {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #64748b;
+  line-height: 2;
+}
+
+.employment-types-list-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.employment-type-list {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.employment-type-checkbox {
+  height: 15px;
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.employment-types-heading {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+
+.employment-type-label {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+.hr-line {
+  height: 2px;
+  background-color: #475569;
+  border-style: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.salary-label {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+.salary-range-list-container {
+  padding-left: 0px;
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+.salary-range-heading {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+
+.salary-range-list {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.salary-range-input {
+  height: 15px;
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .job-items-container {
+    padding-left: 40px;
+    padding-right: 20px;
+    width: 72%;
+  }
+}
+
+.search-input-container {
+  height: 30px;
+  width: 300px;
+  border: 2px #272727 solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-input {
+  height: 29px;
+  width: 270px;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  color: #f1f5f9;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .search-input-container {
+    width: 200px;
+  }
+
+  ..search-input {
+    width: 170px;
+  }
+}
+
+.search-icon-container {
+  height: 29px;
+  width: 30px;
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon-button {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+}
+
+.search-icon {
+  height: 12px;
+  width: 15px;
+  color: #f1f5f9;
+}
+
+.job-item-list-container {
+  padding-left: 0px;
+}
+
+.loader-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-failure-container {
+  min-height: 220px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-retry-button {
+  height: 40px;
+  width: 120px;
+  background-color: #4f46e5;
+  border-style: none;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.no-jobs-view-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-job-image {
+  height: 400px;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.no-jobs-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.no-jobs-description {
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
